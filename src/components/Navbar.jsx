@@ -51,7 +51,6 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {/* Add the Download CV Button */}
           <li>
             <a
               href="/Nehemiah_CV.pdf"
@@ -89,7 +88,6 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
-              {/* Add the Download CV Button for Mobile */}
               <li>
                 <a
                   href="/Nehemiah_CV.pdf"
