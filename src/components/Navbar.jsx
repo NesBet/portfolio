@@ -54,8 +54,8 @@ const Navbar = () => {
           {/* Add the Download CV Button */}
           <li>
             <a
-              href="/cv.pdf" // Path to the PDF file in the public directory
-              download="cv.pdf" // Name of the file to be downloaded
+              href="/Nehemiah_CV.pdf"
+              download="Nehemiah_CV.pdf"
               className="flex items-center gap-2 text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
             >
               <FaDownload /> C.V
