@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FaGithub, FaTwitter } from "react-icons/fa"; // Import social icons
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -32,17 +33,11 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      .sendForm(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, // Your EmailJS Service ID
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID, // Your EmailJS Template ID
+        formRef.current,
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY // Your EmailJS Public Key
       )
       .then(
         () => {
@@ -58,11 +53,13 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
   };
+
+  // Check if all fields are filled
+  const isFormValid = form.name && form.email && form.message;
 
   return (
     <div
@@ -114,12 +111,33 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex items-center gap-4">
+            <button
+              type='submit'
+              disabled={!isFormValid || loading}
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary disabled:opacity-50 disabled:cursor-not-allowed'
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+
+            {/* GitHub and Twitter Logos with Links */}
+            <a
+              href="https://github.com/nesbet" // Replace with your GitHub link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-primary transition-colors"
+            >
+              <FaGithub size={24} />
+            </a>
+            <a
+              href="https://twitter.com/nesh_kibet" // Replace with your Twitter link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-primary transition-colors"
+            >
+              <FaTwitter size={24} />
+            </a>
+          </div>
         </form>
       </motion.div>
 
