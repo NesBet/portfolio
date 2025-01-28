@@ -117,7 +117,7 @@ const technologies = [
 const experiences = [
   {
     title: "Digital twinning of an elevator",
-    company_name: "DeKUT,
+    company_name: "DeKUT",
     icon: starbucks,
     iconBg: "#383E56",
     date: "May 2023 - Dec 2023",
