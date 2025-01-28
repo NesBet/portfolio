@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { FaGithub, FaTwitter } from "react-icons/fa"; // Import social icons
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"; // Import social icons
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -34,10 +34,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, // Your EmailJS Service ID
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID, // Your EmailJS Template ID
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY // Your EmailJS Public Key
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -69,8 +69,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>Let us talk</p>
+        <h3 className={styles.sectionHeadText}>Contact me</h3>
 
         <form
           ref={formRef}
@@ -84,7 +84,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -95,7 +95,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -106,7 +106,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -120,9 +120,8 @@ const Contact = () => {
               {loading ? "Sending..." : "Send"}
             </button>
 
-            {/* GitHub and Twitter Logos with Links */}
             <a
-              href="https://github.com/nesbet" // Replace with your GitHub link
+              href="https://github.com/nesbet"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-primary transition-colors"
@@ -130,12 +129,20 @@ const Contact = () => {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://twitter.com/nesh_kibet" // Replace with your Twitter link
+              href="https://twitter.com/nesh_kibet"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-primary transition-colors"
             >
               <FaTwitter size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kibetse"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-primary transition-colors"
+            >
+              <FaLinkedin size={24} />
             </a>
           </div>
         </form>
