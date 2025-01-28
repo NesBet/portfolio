@@ -81,7 +81,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
               type='text'
-              name='name'
+              name='from_name'
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
@@ -92,7 +92,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your email</span>
             <input
               type='email'
-              name='email'
+              name='from_email'
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
