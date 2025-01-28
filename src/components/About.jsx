@@ -40,18 +40,19 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>My Narrative</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a versatile software and Mechatronics engineer with expertise as a Fullstack developer, 
+        proficient in React, Django, and Three.js. My background in Mechatronics equips me with skills 
+        in IoT, Digital Twins, Automotive Engineering, and AI/ML, allowing me to bridge the gap between 
+        software and hardware solutions. Additionally, I am a Linux systems expert, enabling me to optimize 
+        and deploy applications effectively. I thrive on collaboration and am dedicated to transforming
+        innovative ideas into practical, scalable solutions. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
