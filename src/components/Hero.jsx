@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { isMobile } from "react-device-detect"; // Add device detection
+import { isMobile } from "react-device-detect";
 
 const Hero = () => {
   return (
@@ -25,7 +25,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Conditionally render ComputersCanvas only on desktop */}
       {!isMobile && <ComputersCanvas />}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
