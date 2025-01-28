@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaDownload } from "react-icons/fa"; // Import the download icon
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -50,6 +51,17 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {/* Add the Download CV Button */}
+          <li>
+            <a
+              href="/cv.pdf" // Path to the PDF file in the public directory
+              download="cv.pdf" // Name of the file to be downloaded
+              className="flex items-center gap-2 text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              <FaDownload /> C.V
+            </a>
+          </li>
+
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -77,6 +89,18 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+              {/* Add the Download CV Button for Mobile */}
+              <li>
+                <a
+                  href="/Nehemiah_CV.pdf"
+                  download="Nehemiah_CV.pdf"
+                  className="flex items-center gap-2 font-poppins font-medium cursor-pointer text-[16px] text-secondary hover:text-white"
+                  onClick={() => setToggle(!toggle)}
+                >
+                  <FaDownload /> C.V
+                </a>
+              </li>
+
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
