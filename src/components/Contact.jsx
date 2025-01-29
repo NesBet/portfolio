@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"; // Import social icons
+import { FaGithub, FaTwitter, FaLinkedin, FaDownload } from "react-icons/fa"; // Import social icons
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -42,7 +42,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Message sent! I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -53,7 +53,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Ahh, something went wrong! Please try again.");
         }
       );
   };
@@ -144,6 +144,13 @@ const Contact = () => {
             >
               <FaLinkedin size={24} />
             </a>
+            <a
+              href="/Nehemiah_Resume.pdf"
+    	      download="Nehemiah_Resume.pdf"
+              className="text-white hover:text-primary transition-colors"
+  	    >
+    	      <FaDownload size={24} />
+           </a>
           </div>
         </form>
       </motion.div>
