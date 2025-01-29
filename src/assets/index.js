@@ -56,7 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  velos,
+  hubbis,
+  patahome,
 };
