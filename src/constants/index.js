@@ -88,6 +88,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Automotive Engineer",
+    company_name: "Porsche",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - April 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Fullstack Developer",
+    company_name: "CDED - DeKUT",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2023 - April 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "Digital twinning of an elevator",
     company_name: "DeKUT",
     icon: starbucks,
@@ -113,57 +139,31 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Fullstack Developer",
-    company_name: "CDED - DeKUT",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2023 - April 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Automotive Engineer",
-    company_name: "Porsche",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2022 - April 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Nehemiah proved me wrong.",
+    name: "Dr. Mwangi",
+    designation: "CEO",
+    company: "CDED",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a dedicated engineer who truly cares about their clients' success like Nehemiah does.",
+    name: "Prof. Jean Bosco",
+    designation: "CEO",
+    company: "Siemens Centre, Nyeri",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Nehemiah optimized our elevator system, our maintenance budget reduced by 50%. We can't thank him enough!",
+    name: "Prof. Eng. Peter N. Muchiri",
+    designation: "Vice Chancellor",
+    company: "DeKUT",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -172,7 +172,7 @@ const projects = [
   {
     name: "Velos Lifetime Lodge",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users visitors to observe various recreation activities available in Velos Lifetime Lodge, providing a convenient and efficient solution for vacation planning needs.",
     tags: [
       {
         name: "react",
@@ -193,7 +193,7 @@ const projects = [
   {
     name: "Hubbis Shop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to shop for various electronic devices, providing a convenient way to purchase electronics at competitive prices.",
     tags: [
       {
         name: "react",
@@ -214,7 +214,7 @@ const projects = [
   {
     name: "Patahome",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive home buying platform that allows users to views bungalows, apartments, and studios and offers curated recommendations for popular residential estates.",
     tags: [
       {
         name: "nextjs",
