@@ -57,7 +57,7 @@ const Navbar = () => {
               download="Nehemiah_CV.pdf"
               className="flex items-center gap-2 text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
             >
-              <FaDownload /> C.V
+              <FaDownload /> MyC.V
             </a>
           </li>
 
