@@ -189,6 +189,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/NesBet/Velos",
+    deployed_link: "https://velos-lodge.vercel.app",
   },
   {
     name: "Hubbis Shop",
@@ -210,6 +211,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/NesBet/Hubbis-Shop",
+    deployed_link: "https://github.com/NesBet/Hubbis-Shop",
   },
   {
     name: "Patahome",
@@ -231,7 +233,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/NesBet/patahome",
-    deployed_link: "https://www.patahome.vercel.app"
+    deployed_link: "https://patahome.vercel.app",
   },
 ];
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
+import { FiExternalLink } from "react-icons/fi";
 
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -15,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployed_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -32,6 +34,17 @@ const ProjectCard = ({
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
+          
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-2'>
+            {/* Deployment Link */}
+            {deployed_link && (
+              <div
+                onClick={() => window.open(deployed_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <FiExternalLink className="text-white w-1/2 h-1/2" />
+              </div>
+            )}
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
