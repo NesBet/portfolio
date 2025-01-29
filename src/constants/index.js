@@ -22,6 +22,7 @@ import {
   velos,
   patahome,
   hubbis,
+  bosco,
   threejs,
 } from "../assets";
 
@@ -156,7 +157,7 @@ const testimonials = [
     name: "Prof. Jean Bosco",
     designation: "CEO",
     company: "Siemens Centre, Nyeri",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: bosco,
   },
   {
     testimonial:

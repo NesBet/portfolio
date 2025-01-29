@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import velos from "./velos.png";
 import patahome from "./patahome.png";
 import hubbis from "./hubbis.png";
+import bosco from "./bosco.jpeg";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   velos,
   hubbis,
   patahome,
+  bosco,
 };
