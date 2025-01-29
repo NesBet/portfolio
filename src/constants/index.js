@@ -91,10 +91,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2022 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Diagnosing and Repairing Mechatronic Components: Identifying and resolving issues within the vehicle's mechatronic systems like the PDK transmission, ensuring seamless integration between the various components.",
+      "Analyzing and Servicing HVAC Systems: Conducting thorough diagnostics and perform necessary maintenance on the vehicle's HVAC systems to ensure optimal climate control and passenger comfort.",
+      "Programming and Optimizing Engine Control Units (ECUs): Coding and tuning ECUs to enhance engine performance, emissions control and tailoring the vehicle's software to meet specific performance objectives.",
+      "Diagnosing and Repairing Electrical Systems: Repairing complex electrical systems within the vehicle, addressing issues ranging from wiring faults to sensor malfunctions.",
     ],
   },
   {
@@ -104,10 +104,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing Interactive 3D Visualizations: Implementing high-performance, visually engaging 3D web applications using the Three.js framework.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing Cybersecurity Measures: Protecting web applications from vulnerabilities, ensuring data integrity, confidentiality and compliance with industry standards.",
+      "Enhancing User Experience (UX) and User Interface (UI): Creating intuitive and aesthetically pleasing interfaces, and applying design principles to improve overall user satisfaction and engagement.",
     ],
   },
   {
@@ -117,10 +117,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "3D Modeling and Simulation: Utilizing Blender to create detailed 3D models of the elevator system, enabling accurate simulations of its mechanical components and operations. ",
+      "IoT Integration: Employed Node-RED to design and implement data flow architectures, facilitating seamless communication between IoT sensors, devices and the digital twin for real-time monitoring and control.",
+      "PLC Programming and Synchronization: Programming PLCs to synchronize the physical elevator system with its digital counterpart, ensuring accurate real-time data exchange and operational coherence.",
+      "System Performance Analysis and Optimization: I analyze data from the digital twin to assess system performance, identify potential issues and implement optimizations to enhance efficiency and reliability.",
     ],
   },
   {
@@ -130,10 +130,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and Implementing Sensor Networks: Deploying extensive networks of IoT sensors to monitor critical environmental parameters such as temperature ensuring optimal conditions for plant growth.",
+      "Developing Automated Control Systems: Developing automated systems that manage irrigation, ventilation, lighting and climate control within the greenhouse.",
+      "Integrating Data Analytics Platforms: Implementing data analytics solutions to collect, process and analyze environmental data, for optimizing crop management and improving yield predictions.",
+      "Ensuring System Security and Reliability: Establishing robust cybersecurity measures to protect the greenhouse's IoT infrastructure from potential threats.",
     ],
   },
 ];
