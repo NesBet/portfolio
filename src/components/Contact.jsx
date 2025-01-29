@@ -149,7 +149,7 @@ const Contact = () => {
     	      download="Nehemiah_Resume.pdf"
               className="text-white hover:text-primary transition-colors"
   	    >
-    	      <FaDownload size={24} /> MyResume
+    	      <FaDownload size={24} />Resume
            </a>
           </div>
         </form>
