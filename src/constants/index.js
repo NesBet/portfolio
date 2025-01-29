@@ -231,6 +231,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/NesBet/patahome",
+    deployed_link: "https://www.patahome.vercel.app"
   },
 ];
 
