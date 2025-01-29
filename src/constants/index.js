@@ -11,10 +11,10 @@ import {
   nodejs,
   git,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  iot,
+  siemens,
+  porsche,
+  dekut,
   velos,
   patahome,
   hubbis,
@@ -87,7 +87,7 @@ const experiences = [
   {
     title: "Automotive Engineer",
     company_name: "Porsche",
-    icon: meta,
+    icon: porsche,
     iconBg: "#E6DEDD",
     date: "Jan 2022 - April 2022",
     points: [
@@ -100,7 +100,7 @@ const experiences = [
   {
     title: "Fullstack Developer",
     company_name: "CDED - DeKUT",
-    icon: shopify,
+    icon: dekut,
     iconBg: "#383E56",
     date: "Jan 2023 - April 2023",
     points: [
@@ -112,8 +112,8 @@ const experiences = [
   },
   {
     title: "Digital twinning of an elevator",
-    company_name: "DeKUT",
-    icon: starbucks,
+    company_name: "Siemens",
+    icon: siemens,
     iconBg: "#383E56",
     date: "May 2023 - Dec 2023",
     points: [
@@ -126,7 +126,7 @@ const experiences = [
   {
     title: " IoT Systems Developer",
     company_name: "Kamuny farm",
-    icon: tesla,
+    icon: iot,
     iconBg: "#E6DEDD",
     date: "May 2024 - Present",
     points: [
