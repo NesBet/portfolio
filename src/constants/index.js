@@ -3,17 +3,13 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
+  mwangi,
+  muchiri,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -149,7 +145,7 @@ const testimonials = [
     name: "Dr. Mwangi",
     designation: "CEO",
     company: "CDED",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: mwangi,
   },
   {
     testimonial:
@@ -165,7 +161,7 @@ const testimonials = [
     name: "Prof. Eng. Peter N. Muchiri",
     designation: "Vice Chancellor",
     company: "DeKUT",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: muchiri,
   },
 ];
 

@@ -29,7 +29,10 @@ import tesla from "./company/tesla.png";
 import velos from "./velos.png";
 import patahome from "./patahome.png";
 import hubbis from "./hubbis.png";
+
 import bosco from "./bosco.jpeg";
+import mwangi from "./mwangi.png";
+import muchiri from "./muchiri.jpeg";
 
 export {
   logo,
@@ -42,16 +45,14 @@ export {
   close,
   css,
   docker,
-  figma,
+  mwangi,
   git,
   html,
-  javascript,
-  mongodb,
+  muchiri,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
   meta,
   shopify,
