@@ -14,6 +14,7 @@ import {
   iot,
   siemens,
   porsche,
+  ncba,
   dekut,
   velos,
   patahome,
