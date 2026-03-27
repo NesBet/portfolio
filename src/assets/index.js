@@ -17,6 +17,7 @@ import threejs from "./tech/threejs.svg";
 import porsche from "./company/porsche.png";
 import dekut from "./company/dekut.jpeg";
 import iot from "./company/iot.png";
+import ncba from "./company/ncba.png";
 import siemens from "./company/siemens.png";
 
 import velos from "./velos.png";
@@ -48,6 +49,7 @@ export {
   dekut,
   siemens,
   iot,
+  ncba,
   velos,
   hubbis,
   patahome,
