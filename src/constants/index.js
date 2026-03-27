@@ -138,7 +138,7 @@ const experiences = [
     ],
   },
   {
-    title: " Properties & Facilities Management",
+    title: " Projects & Facilities Management",
     company_name: "NCBA Bank Kenya PLC",
     icon: ncba,
     iconBg: "#E6DEDD",
