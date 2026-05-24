@@ -13,6 +13,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import n8n from "./tech/n8n.png";
 
 import porsche from "./company/porsche.png";
 import dekut from "./company/dekut.jpeg";
@@ -27,6 +28,7 @@ import hubbis from "./hubbis.png";
 import bosco from "./bosco.jpeg";
 import mwangi from "./mwangi.png";
 import muchiri from "./muchiri.jpeg";
+import eva from "./Eva.jpeg";
 
 export {
   logo,
@@ -54,4 +56,6 @@ export {
   hubbis,
   patahome,
   bosco,
+  eva,
+  n8n,
 };

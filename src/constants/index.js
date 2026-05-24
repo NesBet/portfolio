@@ -6,7 +6,6 @@ import {
   mwangi,
   muchiri,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   git,
@@ -20,7 +19,8 @@ import {
   patahome,
   hubbis,
   bosco,
-  threejs,
+  eva,
+  n8n,
 } from "../assets";
 
 export const navLinks = [
@@ -44,16 +44,24 @@ const services = [
     icon: web,
   },
   {
-    title: "Node-red Developer",
+    title: "Automations Engineer",
     icon: mobile,
   },
   {
-    title: "PLCs Developer",
+    title: "IoT Systems Developer",
     icon: backend,
   },
   {
-    title: "Digital Twins Creator",
+    title: "DevOps Engineer",
     icon: creator,
+  },
+  {
+    title: "Systems Integrator",
+    icon: web,
+  },
+  {
+    title: "Problem Solver",
+    icon: backend,
   },
 ];
 
@@ -71,8 +79,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "n8n",
+    icon: n8n,
   },
   {
     name: "git",
@@ -113,7 +121,7 @@ const experiences = [
   },
   {
     title: "Digital twinning of an elevator",
-    company_name: "Siemens",
+    company_name: "Siemens Centre, DeKUT",
     icon: siemens,
     iconBg: "#383E56",
     date: "May 2023 - Dec 2023",
@@ -179,6 +187,14 @@ const testimonials = [
     designation: "Vice Chancellor",
     company: "DeKUT",
     image: muchiri,
+  },
+  {
+    testimonial:
+      "Nehemiah's expertise in engineering and automation was of great help in our push for automating repetitive tasks. He is a top talent who brings a wealth of knowledge and experience to any project.",
+    name: "Eva Yator",
+    designation: "Head of Properties, Facilities  & Projects Management",
+    company: "NCBA",
+    image: eva,
   },
 ];
 
