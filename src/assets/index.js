@@ -24,6 +24,7 @@ import siemens from "./company/siemens.png";
 import velos from "./velos.png";
 import patahome from "./patahome.png";
 import hubbis from "./hubbis.png";
+import jscreatives from "./jscreatives.png";
 
 import bosco from "./bosco.jpeg";
 import mwangi from "./mwangi.png";
