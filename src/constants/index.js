@@ -285,8 +285,8 @@ const projects = [
       },
     ],
     image: jscreatives,
-    source_code_link: "https://github.com/NesBet/Hubbis-Shop",
-    deployed_link: "https://github.com/NesBet/Hubbis-Shop",
+    source_code_link: "https://github.com/NesBet/jscreatives",
+    deployed_link: "https://jscreatives.vercel.app",
   },
 ];
 
