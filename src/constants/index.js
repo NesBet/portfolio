@@ -18,6 +18,7 @@ import {
   velos,
   patahome,
   hubbis,
+  jscreatives,
   bosco,
   eva,
   n8n,
@@ -264,6 +265,28 @@ const projects = [
     image: patahome,
     source_code_link: "https://github.com/NesBet/patahome",
     deployed_link: "https://patahome.vercel.app",
+  },
+  {
+    name: "JsCreatives",
+    description:
+      "A Fullstack web application that offers various custom jerseys,banners, posters, and  providing a convenient way to customize and purchase these items at competitive prices.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jscreatives,
+    source_code_link: "https://github.com/NesBet/Hubbis-Shop",
+    deployed_link: "https://github.com/NesBet/Hubbis-Shop",
   },
 ];
 
